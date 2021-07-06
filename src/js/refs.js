@@ -1,7 +1,6 @@
-const refs = {
-  searchInput: document.querySelector('#js-search-input'),
-  countriesList: document.querySelector('.js-countries-list'),
-  countryContainer: document.querySelector('#js-country-container'),
-};
-
-export default refs;
+export default function getRefs() {
+  return {
+    cardContainer: document.querySelector('.js-card-container'),
+    serchInput: document.querySelector('.input-country'),
+  };
+}
